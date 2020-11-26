@@ -1,12 +1,18 @@
 header{
     position: absolute;
     width: 100%;
-    background-color: rgb(149, 150, 221, 0.5);
+    height: 800px;
+    background-image: url("../imagens/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
 }
 .menuPrincipal ul{
     text-align: center;
-    line-height: 30px;
+    line-height: 70px;
     text-transform: uppercase;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 0;
 }
 .menuPrincipal ul li{
     display: inline-block;
