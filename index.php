@@ -8,18 +8,20 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap" rel="stylesheet">
     </head>
 
     <header>
         <div class="menuPrincipal">
             <ul>
-                <li>Home</li>
-                <li>Sobre mim</li>
-                <li>Serviços</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre mim</a></li>
+                <li><a href="">Serviços</a></li>
             </ul>
             <div class="tituloBanner">
-                <h1>Web Developer</h1>
+                <h1>Soluções em Desenvolvimento Web</h1>
+                <h2>Julio Migliari</h2>
+                <p>Soluções em <strong>Desenvolvimento Web</strong> para o seu negócio.</p>
             </div>
         </div>
     </header>
