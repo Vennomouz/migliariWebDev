@@ -8,12 +8,11 @@ header{
     /* background-position: center; */
 }
 .menuPrincipal ul{
-    text-align: center;
+    text-align: end;
     line-height: 70px;
     text-transform: uppercase;
     background-color: rgb(255, 255, 255, 0.5);
     margin: 0;
-    font-family: 'Indie Flower', cursive;
     font-size: 30px;
 }
 .menuPrincipal ul li{
