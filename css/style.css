@@ -13,7 +13,7 @@ header{
     text-transform: uppercase;
     background-color: rgb(255, 255, 255, 0.5);
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
 }
 .menuPrincipal ul li{
     display: inline-block;
