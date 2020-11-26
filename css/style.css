@@ -1,0 +1,19 @@
+header{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(149, 150, 221, 0.5);
+}
+.menuPrincipal ul{
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.menuPrincipal ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
+}
+body{
+    margin: 0;
+}
+
