@@ -20,8 +20,8 @@
             </ul>
             <div class="tituloBanner">
                 <h1>Soluções em Desenvolvimento Web</h1>
-                <h2>Julio Migliari</h2>
-                <p>Soluções em <strong>Desenvolvimento Web</strong> para o seu negócio.</p>
+                <h2><a>user.name</a> = "Julio Migliari"</h2>
+                <!-- <p>Soluções em <strong>Desenvolvimento Web</strong> para o seu negócio.</p> -->
             </div>
         </div>
     </header>
