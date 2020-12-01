@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    height: 100vh;
+    height: 100vh; /*vh = viewport height*/
     background-image: url("../imagens/banner5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,6 @@ header{
     font-size: 40px;
     color: white;
     margin: 20px;
-    /* margin: 10px -20px; */
     /* background-color: white; */
     /* border-radius: 50%; */
 }

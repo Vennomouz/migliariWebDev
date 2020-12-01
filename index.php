@@ -20,16 +20,16 @@
                 <li><a href="">Sobre mim</a></li>
                 <li><a href="">Serviços</a></li>
             </ul>
-            <div class="tituloBanner">
-                <h1>Soluções em Desenvolvimento Web</h1>
-                <h2><a>user.name</a> = "Julio Migliari"</h2>
-            </div>
-            <div class="iconRedes">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-instagram"></i>
-            </div>
+        </div>
+        <div class="tituloBanner">
+            <h1>Soluções em Desenvolvimento Web</h1>
+            <h2><a>user.name</a> = "Julio Migliari"</h2>
+        </div>
+        <div class="iconRedes">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
         </div>
     </header>
 
