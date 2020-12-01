@@ -10,23 +10,28 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
     </head>
 
     <header>
-        <div class="redes">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-        </div>
         <div class="menuPrincipal">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Sobre mim</a></li>
                 <li><a href="">Serviços</a></li>
+                <!-- <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li> -->
             </ul>
             <div class="tituloBanner">
                 <h1>Soluções em Desenvolvimento Web</h1>
                 <h2><a>user.name</a> = "Julio Migliari"</h2>
                 <!-- <p>Soluções em <strong>Desenvolvimento Web</strong> para o seu negócio.</p> -->
+            </div>
+            <div class="redes">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-instagram"></i>
             </div>
         </div>
     </header>

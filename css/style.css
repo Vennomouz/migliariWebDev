@@ -1,18 +1,24 @@
 header{
     width: 100%;
-    height: 700px;
-    background-image: url("../imagens/banner3.jpg");
+    height: 100vh;
+    background-image: url("../imagens/banner5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
 }
 .redes{
-    float: left;
-    position: absolute;
+    margin-left: 40px;
+    /* float: left;
+    position: absolute; */
+    /* display: none; */
 }
 .fab{
-    font-size: 60px!important;
-    margin: 10px 20px;
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+    /* margin: 10px -20px; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
 }
 .menuPrincipal ul{
     /* position: fixed;
@@ -29,11 +35,11 @@ header{
     list-style: none;
     padding: 0 30px;
     margin: 0 40px;
-    /* border-left: 5px solid white; */
+    /* border-left: 5px solid blue; */
     /* transform: skewX(-20deg); */
 }
 .menuPrincipal ul li a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Josefin Sans', sans-serif;    
     font-size: 20px;
     text-decoration: none;
     color:#5c5bfe;
@@ -44,7 +50,6 @@ header{
     margin-left: 30px;
     color: rgb(208, 64, 165);
     width: 50%;
-    padding-top: 40px;
     line-height: 76px;
     /*-webkit-text-stroke-width: 1px;  CONTORNO DO TEXTO
     -webkit-text-stroke-color: #000;*/
