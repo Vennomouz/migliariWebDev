@@ -21,6 +21,11 @@
                 <li><a href="">Serviços</a></li>
             </ul>
         </div>
+        <div class="menuMobile">
+            <ul>
+                <li><i class="fas fa-bars"></i></li>
+            </ul>
+        </div>
         <div class="tituloBanner">
             <h1>Soluções em Desenvolvimento Web</h1>
             <h2><a>user.name</a> = "Julio Migliari"</h2>
