@@ -21,10 +21,10 @@
                 <li><a href="">Serviços</a></li>
             </ul>
             <div class="iconRedes">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-instagram"></i>
+                <a href="https://www.facebook.com/julio.augusto.12576"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/julioaugustomig"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/Vennomouz"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/julio_migliari/"><i class="fab fa-instagram"></i></a>        
             </div>
         </div>
         <div class="menuMobile">
