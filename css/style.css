@@ -76,6 +76,9 @@ body{
     margin: 0;
     display: none;
 }
+.fas{
+    color: white;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -91,9 +94,6 @@ body{
     .menuMobile ul li{
         display: inline-block;
         list-style: none;
-    }
-    .fas{
-        color: white;
     }
     .tituloBanner h1{
         width: 100%;
