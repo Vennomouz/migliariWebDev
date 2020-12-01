@@ -25,8 +25,12 @@
             </ul>
             <div class="tituloBanner">
                 <h1>Soluções em Desenvolvimento Web</h1>
+<<<<<<< HEAD
                 <h2><a>user.name</a> = "Julio Migliari"</h2>
                 <!-- <p>Soluções em <strong>Desenvolvimento Web</strong> para o seu negócio.</p> -->
+=======
+                <h2>Julio_Migliari</h2>
+>>>>>>> ec38feb47d8eba0d48bfe65e56c2cdb1bc7fb215
             </div>
         </div>
     </header>
