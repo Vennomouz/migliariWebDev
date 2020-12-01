@@ -4,30 +4,15 @@ header{
     background-image: url("../imagens/banner5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
 }
-.iconRedes{
-    margin-left: 40px;
-    /* float: left;
-    position: absolute; */
-    /* display: none; */
-}
-.fab{
-    font-size: 40px;
-    color: white;
-    margin: 20px;
-    /* background-color: white; */
-    /* border-radius: 50%; */
+.menuPrincipal{
+    display: flex;
 }
 .menuPrincipal ul{
     text-align: end;
     line-height: 70px;
     text-transform: uppercase;
-    margin: 0;
-    /* position: fixed;
-    top: 0;
-    background-color: rgb(255, 255, 255);
-    width: 100%; */
+    width: 70%;
 }
 .menuPrincipal ul li{
     display: inline-block;
@@ -42,6 +27,15 @@ header{
     font-size: 20px;
     text-decoration: none;
     color:#5c5bfe;
+}
+.iconRedes{
+    width: 30%;
+    text-align: end;
+}
+.fab{
+    font-size: 30px;
+    color: white;
+    margin: 20px;
 }
 .tituloBanner h1{
     font-family: 'Raleway', sans-serif;
@@ -58,8 +52,6 @@ header{
     font-size: 30px;
     margin-left: 30px;
     color: white;
-    /*-webkit-text-stroke-width: 1px;  CONTORNO DO TEXTO
-    -webkit-text-stroke-color: #000;*/
 }
 .tituloBanner a{
     color: yellowgreen;
@@ -98,11 +90,11 @@ body{
     .tituloBanner h1{
         width: 100%;
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         margin: 50px 0;
     }
     .tituloBanner h2{
-        font-size: 24px;
+        font-size: 20px;
     }
     .iconRedes{
         text-align: center;
