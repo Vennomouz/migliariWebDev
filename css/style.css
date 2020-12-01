@@ -6,7 +6,7 @@ header{
     background-size: cover;
     /* background-position: center; */
 }
-.redes{
+.iconRedes{
     margin-left: 40px;
     /* float: left;
     position: absolute; */
@@ -21,14 +21,14 @@ header{
     /* border-radius: 50%; */
 }
 .menuPrincipal ul{
-    /* position: fixed;
-    top: 0;
-    background-color: rgb(255, 255, 255);
-    width: 100%; */
     text-align: end;
     line-height: 70px;
     text-transform: uppercase;
     margin: 0;
+    /* position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%; */
 }
 .menuPrincipal ul li{
     display: inline-block;

@@ -27,7 +27,7 @@
                 <h2><a>user.name</a> = "Julio Migliari"</h2>
                 <!-- <p>Soluções em <strong>Desenvolvimento Web</strong> para o seu negócio.</p> -->
             </div>
-            <div class="redes">
+            <div class="iconRedes">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-github"></i>
