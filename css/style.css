@@ -67,6 +67,15 @@ header{
 body{
     margin: 0;
 }
+.menuMobile{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    display: none;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -74,12 +83,7 @@ body{
         display: none;
     }
     .menuMobile{
-        width: 100%;
-        height: 50px;
-        background-color: black;
-        position: fixed;
-        top: 0;
-        margin: 0;
+        display: block;
     }
     .menuMobile ul {
         padding: 0 15px;
