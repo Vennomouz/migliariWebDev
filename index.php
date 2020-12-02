@@ -22,16 +22,28 @@
             </ul>
             <div class="iconRedes">
                 <a href="https://www.facebook.com/julio.augusto.12576"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/julioaugustomig"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/Vennomouz"><i class="fab fa-github"></i></a>
                 <a href="https://www.instagram.com/julio_migliari/"><i class="fab fa-instagram"></i></a>        
+                <a href="https://www.linkedin.com/in/julio-migliari-ab4783159/"><i class="fab fa-linkedin-in"></i></i></a>
+                <a href="https://github.com/Vennomouz"><i class="fab fa-github"></i></a>
             </div>
         </div>
         <div class="menuMobile">
             <ul>
-                <li><i class="fas fa-bars"></i></li>
+                <li><i class="fas fa-bars" onclick="clickMenu()"></i></li>
             </ul>
+            <div class="itensMenumobile">
+                <ul>
+                    <li><i class="fas fa-home"></i> Home</li>
+                    <li><i class="fas fa-mug-hot"></i> Sobre mim</li>
+                    <li><i class="fas fa-file-code"></i> Serviços</li>
+                    <li><a href="https://www.facebook.com/julio.augusto.12576"><i class="fab fa-facebook"></i></a> Facebook</li>
+                    <li><a href="https://www.instagram.com/julio_migliari/"><i class="fab fa-instagram"></i></a> Instagram</li>
+                    <li><a href="https://www.linkedin.com/in/julio-migliari-ab4783159/"><i class="fab fa-linkedin-in"></i></a> LinkedIn</li>
+                    <li><a href="https://github.com/Vennomouz"><i class="fab fa-github"></i></a> GitHub</li>
+                </ul>
+            </div>
         </div>
+        
         <div class="tituloBanner">
             <h1>Soluções em Desenvolvimento Web</h1>
             <h2><a>user.name</a> = "Julio Migliari"</h2>
@@ -44,12 +56,22 @@
                 <div class="profilePic"><img src="imagens/profilepic.jpg" alt=""></div>
                 <h2>Sobre mim</h2>
                 <hr>
-                <p>Meu nome é Julio Migliari, tenho 23 anos e sou programador. </p>
+                <!-- <p>Meu nome é Julio Migliari, tenho 23 anos e sou programador. </p>
                 <p>Estou cursando Análise e Desenvolvimento de sistemas no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
                 <p>Tenho alguns hobbies como tocar bateria, e alguns gostos nerds como jogar video game e assistir séries e animes.</p>
-                <p>Meu principal objetivo é estar sempre me aprimorando na área da tecnologia, pois todos os dias novas tecnologias surgem no mercado.</p>
+                <p>Meu principal objetivo é estar sempre me aprimorando na área da tecnologia, pois todos os dias novas tecnologias surgem no mercado.</p> -->
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
         </div>
     </body>
 
 </html> 
+
+<script>
+    function clickMenu(e){
+        e.preventDefault;
+        const botaoMenuMobile = document.querySelector('itensMenumobile');
+
+    }
+
+</script>
