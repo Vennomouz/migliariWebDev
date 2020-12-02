@@ -29,9 +29,9 @@
         </div>
         <div class="menuMobile">
             <ul>
-                <li><i class="fas fa-bars" onclick="clickMenu()"></i></li>
+                <li><i class="fas fa-bars"></i></li>
             </ul>
-            <div class="itensMenumobile">
+            <div class="itensMenuMobile">
                 <ul>
                     <li><i class="fas fa-home"></i> Home</li>
                     <li><i class="fas fa-mug-hot"></i> Sobre mim</li>
@@ -69,10 +69,15 @@
 
 <script>
 
-    const botaoMenuMobile = document.querySelector('itensMenumobile');
-    
-    function clickMenu(){
-
-    }
+    const botaoMenuMobile = document.querySelector(".menuMobile");
+    botaoMenuMobile.addEventListener('click', function(e){
+        e.preventDefault();
+        let menu = document.querySelector('.itensMenuMobile');
+        if (menu.style.display != "block"){
+        menu.setAttribute("style", "display: block;");
+        }else{
+        menu.setAttribute("style", "display: none;");
+        }
+    });
 
 </script>

@@ -93,25 +93,26 @@ body{
 .menuMobile ul li{
     display: inline-block;
 }
-.itensMenumobile{
+.itensMenuMobile{
     background-color: black;
     width: 50%;
     top: 50px;
     position: fixed;
+    display: none;
 }
-.itensMenumobile ul{
+.itensMenuMobile ul{
     margin: 0;
     line-height: 40px;
     text-align: center;
 }
-.itensMenumobile ul li{
+.itensMenuMobile ul li{
    color: white;
    display: block;
    margin: 10px;
    border-bottom: solid white 1px;
    
 }
-.itensMenumobile ul li a{
+.itensMenuMobile ul li a{
    color: white;
 }
 
@@ -162,6 +163,9 @@ hr{
     }
     .menuMobile{
         display: block;
+    }
+    .itensMenuMobile{
+        width: 100%;
     }
 
     /* BANNER */
