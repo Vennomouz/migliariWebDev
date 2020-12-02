@@ -68,9 +68,10 @@
 </html> 
 
 <script>
-    function clickMenu(e){
-        e.preventDefault;
-        const botaoMenuMobile = document.querySelector('itensMenumobile');
+
+    const botaoMenuMobile = document.querySelector('itensMenumobile');
+    
+    function clickMenu(){
 
     }
 
