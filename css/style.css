@@ -104,16 +104,17 @@ body{
     margin: 0;
     line-height: 40px;
     text-align: center;
+    padding: 0;
 }
 .itensMenuMobile ul li{
    color: white;
    display: block;
    margin: 10px;
    border-bottom: solid white 1px;
-   
 }
 .itensMenuMobile ul li a{
    color: white;
+   text-decoration: none;
 }
 
 

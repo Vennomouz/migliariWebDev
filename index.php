@@ -31,17 +31,17 @@
             <ul>
                 <li><i class="fas fa-bars"></i></li>
             </ul>
-            <div class="itensMenuMobile">
-                <ul>
-                    <li><i class="fas fa-home"></i> Home</li>
-                    <li><i class="fas fa-mug-hot"></i> Sobre mim</li>
-                    <li><i class="fas fa-file-code"></i> Serviços</li>
-                    <li><a href="https://www.facebook.com/julio.augusto.12576"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href="https://www.instagram.com/julio_migliari/"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/in/julio-migliari-ab4783159/"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-                    <li><a href="https://github.com/Vennomouz"><i class="fab fa-github"></i> GitHub</a></li>
-                </ul>
-            </div>
+        </div>
+        <div class="itensMenuMobile">
+            <ul>
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-mug-hot"></i> Sobre mim</li>
+                <li><i class="fas fa-file-code"></i> Serviços</li>
+                <li><a href="https://www.facebook.com/julio.augusto.12576"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/julio_migliari/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/julio-migliari-ab4783159/"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/Vennomouz"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
         </div>
         
         <div class="tituloBanner">
