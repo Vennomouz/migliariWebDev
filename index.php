@@ -14,10 +14,10 @@
     </head>
 
     <header>
-        <div class="menuPrincipal">
+        <div class="menuPrincipal" id="home">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre mim</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#content">Sobre mim</a></li>
                 <li><a href="">Serviços</a></li>
             </ul>
             <div class="iconRedes">
@@ -36,10 +36,20 @@
             <h1>Soluções em Desenvolvimento Web</h1>
             <h2><a>user.name</a> = "Julio Migliari"</h2>
         </div>
-       
     </header>
 
     <body>
+        <div class="content" id="content">
+            <div class="sobreMim">
+                <div class="profilePic"><img src="imagens/profilepic.jpg" alt=""></div>
+                <h2>Sobre mim</h2>
+                <hr>
+                <p>Meu nome é Julio Migliari, tenho 23 anos e sou programador. </p>
+                <p>Estou cursando Análise e Desenvolvimento de sistemas no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
+                <p>Tenho alguns hobbies como tocar bateria, e alguns gostos nerds como jogar video game e assistir séries e animes.</p>
+                <p>Meu principal objetivo é estar sempre me aprimorando na área da tecnologia, pois todos os dias novas tecnologias surgem no mercado.</p>
+            </div>
+        </div>
     </body>
 
 </html> 
