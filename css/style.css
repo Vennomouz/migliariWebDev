@@ -17,8 +17,8 @@ body{
 .menuPrincipal ul{
     text-align: end;
     line-height: 70px;
-    text-transform: uppercase;
     width: 70%;
+    /* text-transform: uppercase; */
 }
 .menuPrincipal ul li{
     display: inline-block;
@@ -30,9 +30,12 @@ body{
 }
 .menuPrincipal ul li a{
     font-family: 'Josefin Sans', sans-serif;    
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     color:#5c5bfe;
+}
+.menuPrincipal ul li a:hover{
+    color: rgb(208, 64, 165);
 }
 
 /* ICONES DO MENU */
