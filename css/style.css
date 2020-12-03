@@ -124,20 +124,24 @@ body{
 /* BODY */
 
 .content{
-    margin: 0;
-    margin-top: 0;
-    background-color: rgb(29, 23, 27);
+    /* margin: 0;
+    margin-top: 0; */
+    background-image: url("../imagens/contentBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(29, 23, 27); */
     padding: 50px;
 }
 .sobreMim{
     text-align: justify;
-    padding: 10px 40px;
+    padding: 10px 80px;
 }
 .sobreMim h2{
+    color: rgb(214, 214, 44);
     font-family: 'Raleway', sans-serif;
-    color: rgb(208, 64, 165);
     font-weight: bold;
     letter-spacing: 3px;
+    /* color: rgb(208, 64, 165); */
 }
 .sobreMim p{
     font-family: 'Poppins', sans-serif;
@@ -151,10 +155,16 @@ body{
     border-radius: 50%;
     margin-left: 20px;
 }
-hr{
+/* hr{
     width: 10%;
     margin-left: 0;
     border: 1px solid #5c5bfe;
+} */
+.sobreMim span{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
 }
 
 
@@ -184,6 +194,9 @@ hr{
     }
 
     /* BODY */
+    .sobreMim{
+        padding: 20px 30px;
+    }
     .sobreMim p{
         padding: 0;
     }

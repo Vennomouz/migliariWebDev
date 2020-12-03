@@ -55,13 +55,14 @@
         <div class="content" id="content">
             <div class="sobreMim">
                 <div class="profilePic"><img src="imagens/profilepic.jpg" alt=""></div>
-                <h2>Sobre mim</h2>
-                <hr>
+                <h2>.Sobre mim<span>{</span></h2>
+                <!-- <hr> -->
                 <!-- <p>Meu nome é Julio Migliari, tenho 23 anos e sou programador. </p>
                 <p>Estou cursando Análise e Desenvolvimento de sistemas no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
                 <p>Tenho alguns hobbies como tocar bateria, e alguns gostos nerds como jogar video game e assistir séries e animes.</p>
                 <p>Meu principal objetivo é estar sempre me aprimorando na área da tecnologia, pois todos os dias novas tecnologias surgem no mercado.</p> -->
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <span>}</span>
             </div>
         </div>
         <script src="scripts/script.js"></script>
