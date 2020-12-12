@@ -47,7 +47,7 @@
         
         <div class="tituloBanner">
             <h1>Soluções em Desenvolvimento Web</h1>
-            <h2><a>user.name</a> = "Julio Migliari"</h2>
+            <h2><span>user.name</span> = "Julio Migliari"</h2>
         </div>
     </header>
 

@@ -228,6 +228,12 @@ body{
 @media (min-width: 1200px) {
 	/* BODY */
     .sobreMim{
+<<<<<<< HEAD
        padding: 35px 90px;
     }
 }
+=======
+        padding: 35px 90px;
+    }
+}
+>>>>>>> 3b092eb17dc656cc7a1158c52481fe62e2d4da34
