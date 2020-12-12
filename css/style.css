@@ -68,7 +68,7 @@ body{
     margin-left: 30px;
     color: white;
 }
-.tituloBanner a{
+.tituloBanner span{
     color: yellowgreen;
 }
 
@@ -195,10 +195,10 @@ body{
 
     /* BODY */
     .sobreMim{
-        padding: 20px 30px;
+        padding: 50px 10px 120px 40px;
     }
     .sobreMim p{
-        padding: 0;
+        padding: 0 20px;
     }
     .content{
         padding: 0;
@@ -226,5 +226,8 @@ body{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	
+	/* BODY */
+    .sobreMim{
+       padding: 35px 90px;
+    }
 }
