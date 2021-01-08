@@ -11,49 +11,33 @@ botaoMenuMobile.addEventListener('click', function(e){
 
 var currentFocus;
 var arr = ["pastel", "coxinha", "cachorro"];
+var i;
 const textbox = document.querySelector('.textbox');
 
 textbox.addEventListener("input", function(e){
     var val = this.value;
-    var a, i;
-    // console.log(val);
-    closeAllLists();
-
-    if (!val){ return false;}
-    currentFocus = -1;
-
-    a = document.createElement("DIV");
-    a.setAttribute("id", this.id + "autocomplete-list");
-    a.setAttribute("class", "autocomplete-items");
-    /*append the DIV element as a child of the autocomplete container:*/
-    this.parentNode.appendChild(a);
+    closeList();
 
     for(i = 0; i < arr.length; i++){
-        if(arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()){
+        if(arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase() && val != ''){
             var b = document.createElement("div");
-            b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+            b.innerHTML = "<strong>" + arr[i] + "</strong>";
             b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+            b.setAttribute("class", "autocomplete-item");
             console.log(arr[i]);
-
+            textbox.parentNode.appendChild(b);
             b.addEventListener("click", function(e){
                 textbox.value = this.getElementsByTagName("input")[0].value;
-                closeAllLists();
             });
         }
     }
 });
 
-function closeAllLists(elmnt) {
-    /*close all autocomplete lists in the document,
-    except the one passed as an argument:*/
-    var x = document.getElementsByClassName("autocomplete-items");
-    for (var i = 0; i < x.length; i++) {
-      if (elmnt != x[i] && elmnt != textbox) {
-      x[i].parentNode.removeChild(x[i]);
+function closeList() {
+    var a = document.querySelectorAll('.autocomplete-item');
+    for(i = 0; i < a.length; i++){
+        textbox.parentNode.removeChild(a[i]);
     }
-  }
-}
+ }
 
-document.addEventListener("click", function (e) {
-    closeAllLists(e.target);
-});
+
