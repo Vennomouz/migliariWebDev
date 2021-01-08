@@ -9,7 +9,6 @@ botaoMenuMobile.addEventListener('click', function(e){
     }
 });
 
-var currentFocus;
 var arr = ["pastel", "coxinha", "cachorro"];
 var i;
 const textbox = document.querySelector('.textbox');
