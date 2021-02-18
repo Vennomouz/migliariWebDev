@@ -39,4 +39,14 @@ function closeList() {
     }
  }
 
+//FadeIn on Scroll
+
+//$(window).scroll(function(){
+//    var posicaoAtual = $(window).scrollTop() + $(window).height();
+//    var posicaoDiv = $('.wrapper').position().top;
+//    if(posicaoAtual > posicaoDiv){
+//        $('.divConteudo').fadeIn(1500);
+//    }
+//});
+
 
